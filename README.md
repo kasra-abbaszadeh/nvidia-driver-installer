@@ -1,43 +1,103 @@
-# 🖥️ NVIDIA Driver Installer Script
+# NVIDIA Linux Driver Installer 🚀
 
-![Nvidia](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2VxeTBjY2hpbTVsZjJ4cGttYTl0N293YnRqeDZmczMyY3d1aWE0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/qGf2Ejax0Xep6kFzLZ/giphy.gif)
+A lightweight Bash script designed to simplify the installation process of NVIDIA drivers on Linux distributions.
 
-This is a simple Bash script that helps users quickly install NVIDIA drivers based on their Linux distribution.
+This project automates the required steps for installing NVIDIA drivers and provides a simple interactive interface for users. It supports multiple Linux distributions and handles dependencies, kernel detection, and driver installation automatically.
 
-## 📦 Supported Distributions
+## ✨ Features
 
- Debian ✅
- 
- Arch Linux ✅
- 
- Ubuntu ✅
- 
-## 🚀 How to Use
+* 🔍 NVIDIA GPU detection
+* 🐧 Support for popular Linux distributions:
 
-Clone or [Download](https://github.com/DaddyMohandes/nvidia-driver-installer/blob/main/nvidia-installer.sh) :
-   
-  
-  ```git clone https://github.com/DaddyMohandes/nvidia-driver-installer.git```
+  * Debian
+  * Ubuntu
+  * Arch Linux
+* ⚙️ Automatic dependency installation:
+
+  * DKMS
+  * Linux Headers
+  * Build Tools
+* 🧩 Kernel detection for Arch Linux
+* 🚀 Support for:
+
+  * Standard Linux kernels
+  * LTS kernels
+* 🎨 Color-based terminal interface
+* 📦 Uses official package managers:
+
+  * APT
+  * Pacman
+* 🔄 Automatic system update before installation
+* 🛠️ Simple interactive installation menu
+
+## 🎯 Project Goal
+
+The goal of this project is to make NVIDIA driver installation easier for Linux users by reducing manual configuration steps and providing an automated, reliable installation workflow.
+
+This project is also created as a learning experience for:
+
+* Bash scripting
+* Linux system administration
+* Package management
+* Hardware driver automation
+
+## 🖥️ Supported Distributions
+
+| Distribution | Status      |
+| ------------ | ----------- |
+| Debian       | ✅ Supported |
+| Ubuntu       | ✅ Supported |
+| Arch Linux   | ✅ Supported |
+
+## ⚙️ Installation & Usage
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/NVIDIA-Linux-Driver-Installer.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd NVIDIA-Linux-Driver-Installer
+```
 
 Make the script executable:
 
- ```chmod +x nvidia-installer.sh```
+```bash
+chmod +x installer.sh
+```
 
-    
- Run the script:
- 
-  ``` ./nvidia-installer.sh ```
+Run the installer:
 
- optional ( Not recommended, Made with Python for exercise )  : 
+```bash
+./installer.sh
+```
 
- ``` python3 nvidia.py ```
+After the installation is completed, reboot your system.
 
-## 🧠 Requirements
+## ⚠️ Requirements
 
- Bash or zsh Shell
+* NVIDIA GPU
+* Linux operating system
+* Internet connection
+* sudo privileges
 
-Root privileges (sudo)
+## 📌 Notes
 
-Internet connection
+* Always make sure your system is backed up before changing GPU drivers.
+* The script uses official Linux repositories to install NVIDIA drivers.
+* After installation, a system reboot is required to load the new driver.
 
-If you want to use the version written in Python, install Python too. ( Not recommended )
+## 🤝 Contribution
+
+Contributions, improvements, and bug reports are welcome. Feel free to open an issue or submit a pull request.
+
+## 📜 License
+
+This project is open-source and available for educational and personal use.
+
+---
+
+Developed with ❤️ by **Kasra**
