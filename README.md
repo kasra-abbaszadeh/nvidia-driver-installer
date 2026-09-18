@@ -99,5 +99,3 @@ Contributions, improvements, and bug reports are welcome. Feel free to open an i
 This project is open-source and available for educational and personal use.
 
 ---
-
-Developed with ❤️ by **Kasra**
