@@ -54,7 +54,7 @@ This project is also created as a learning experience for:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/NVIDIA-Linux-Driver-Installer.git
+git clone https://github.com/kasra-abbaszadeh/NVIDIA-Linux-Driver-Installer.git
 ```
 
 Navigate to the project directory:
